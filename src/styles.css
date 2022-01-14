@@ -5,12 +5,12 @@
 
 .container {
   width: 400px;
-  height: 748px;
   display: block;
   margin: 0 auto;
   background-color: var(--primary-color);
   border-radius: 15px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .search-bar {
@@ -25,7 +25,9 @@ input {
   border: 0;
   color: var(--secondary-color);
   margin-top: 5%;
+  margin-bottom: 5%;
   text-align: center;
+  padding: 5px;
 }
 
 input[type='submit'] {
@@ -38,7 +40,7 @@ input[type='submit'] {
 
 #circle-sun {
   font-size: 90px;
-  line-height: 0.7;
+
   padding: 0;
   color: #f7ee1c;
 }
@@ -50,18 +52,32 @@ h1 {
 }
 
 h3,
-h3 {
+h4 {
   font-family: 'Bai Jamjuree';
   font-weight: 400;
   color: white;
-  line-height: 0;
 }
 
 h1 {
-  font-size: 90px;
-  line-height: 0.3;
+  font-size: 120px;
 }
 
 h2 {
   margin-top: 8%;
+}
+
+.flex-container {
+  display: flex;
+  background-color: var(--secondary-color);
+  margin: 40px 15px 10px 15px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 10px;
 }
