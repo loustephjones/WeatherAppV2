@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #5f89c8;
+  --secondary-color: #81b0f8;
+}
+
+.container {
+  width: 400px;
+  height: 748px;
+  display: block;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+input {
+  border-radius: 15px;
+  font-family: 'Bai Jamjuree';
+  font-weight: 700;
+  letter-spacing: 40;
+  border: 0;
+  color: var(--secondary-color);
+  margin-top: 5%;
+  text-align: center;
+}
+
+input[type='submit'] {
+  background-color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  width: 10;
+}
+
+#circle-sun {
+  font-size: 90px;
+  line-height: 0.7;
+  padding: 0;
+  color: #f7ee1c;
+}
+
+h2,
+h1 {
+  font-family: 'Bebas Neue';
+  color: white;
+}
+
+h3,
+h3 {
+  font-family: 'Bai Jamjuree';
+  font-weight: 400;
+  color: white;
+  line-height: 0;
+}
+
+h1 {
+  font-size: 90px;
+  line-height: 0.3;
+}
+
+h2 {
+  margin-top: 8%;
+}
